@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: #e53935;
   color: white;
@@ -16,4 +17,23 @@ nav a {
 }
 nav a:hover {
   text-decoration: underline;
+}
+
+nav a {
+ 
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px;
+  display: inline-block;
+  width: 200px;
 }
